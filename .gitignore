@@ -1,0 +1,52 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+
+### Xcode ###
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.xcuserstate
+ios/Pods/*
+
+### Android Studio ###
+android/.gradle/*
+android/build/*
+android/proguard/*
+android/local.properties
+android/.idea/gradle.xml
+# Generated files
+android/bin/
+android/gen/
+android/out/
+# Intellij
+android/*.iml
+android/.idea/workspace.xml
+android/.idea/libraries
+# Sensitive or high-churn files:
+android/.idea/dataSources.ids
+android/.idea/dataSources.xml
+android/.idea/dataSources.local.xml
+android/.idea/sqlDataSources.xml
+android/.idea/dynamic.xml
+android/.idea/uiDesigner.xml
+
+# VS Code
+.vscode
+
+# Fastlane
+fastlane/*
